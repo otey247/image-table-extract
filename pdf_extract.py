@@ -218,7 +218,7 @@ def main():
         extractor = PDFExtractor("extracted_pdfs")
         
         # Extract content from a PDF
-        pdf_path = "SOW_2160309_Capgemini America Inc._CAS-668577-H8M3Z2_-38425492 - unsigned.pdf"  # Replace with your PDF path
+        pdf_path = "your_pdf_here"  # Replace with your PDF path
         results = extractor.extract_content(
             pdf_path,
             strategy="hi_res",
